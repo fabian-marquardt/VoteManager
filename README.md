@@ -24,4 +24,4 @@ Die GUI des Programms nutzt das GUI-Toolkit "JavaFX". Zur Bearbeitung der JavaFX
 
 ## Lizenz
 
-Das Programm und alle enthaltenen Dateien werden unter "3-clause-BSD"-Lizenz veröffentlicht. Für weitere Informationen siehe die Datei "LICENSE".
+Das Programm und alle enthaltenen Dateien werden unter MIT-Lizenz veröffentlicht. Für weitere Informationen siehe die Datei "LICENSE".
