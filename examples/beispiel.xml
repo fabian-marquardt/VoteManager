@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wahl>
+    <ergebnisse>
+        <ergebnis stimmenEnthaltung="10" stimmenGesamt="125" stimmenGueltig="120" stimmenUngueltig="5" urne="Testurne 1">
+            <listenergebnis gesamtstimmen="60" liste="TEST" listenstimmen="40">
+                <kandidatenergebnis kandidat="Max Mustermann" stimmen="15"/>
+                <kandidatenergebnis kandidat="Erika Mustermann" stimmen="5"/>
+            </listenergebnis>
+            <listenergebnis gesamtstimmen="50" liste="LOREM" listenstimmen="45">
+                <kandidatenergebnis kandidat="Lorem Ipsum" stimmen="5"/>
+                <kandidatenergebnis kandidat="Dolor Sit Amet" stimmen="0"/>
+            </listenergebnis>
+        </ergebnis>
+        <ergebnis stimmenEnthaltung="1" stimmenGesamt="10" stimmenGueltig="5" stimmenUngueltig="5" urne="Testurne 2">
+            <listenergebnis gesamtstimmen="3" liste="TEST" listenstimmen="3">
+                <kandidatenergebnis kandidat="Max Mustermann" stimmen="0"/>
+                <kandidatenergebnis kandidat="Erika Mustermann" stimmen="0"/>
+            </listenergebnis>
+            <listenergebnis gesamtstimmen="1" liste="LOREM" listenstimmen="1">
+                <kandidatenergebnis kandidat="Lorem Ipsum" stimmen="0"/>
+                <kandidatenergebnis kandidat="Dolor Sit Amet" stimmen="0"/>
+            </listenergebnis>
+        </ergebnis>
+    </ergebnisse>
+    <listen>
+        <liste kuerzel="TEST" name="Total Einfallslose Super-Testliste" nummer="1">
+            <kandidaten>
+                <kandidat name="Max Mustermann" nummer="1"/>
+                <kandidat name="Erika Mustermann" nummer="2"/>
+            </kandidaten>
+        </liste>
+        <liste kuerzel="LOREM" name="Liste Ohne Richtige Echte Menschen" nummer="2">
+            <kandidaten>
+                <kandidat name="Lorem Ipsum" nummer="1"/>
+                <kandidat name="Dolor Sit Amet" nummer="2"/>
+            </kandidaten>
+        </liste>
+    </listen>
+    <urnen>
+        <urne name="Testurne 1" nummer="1"/>
+        <urne name="Testurne 2" nummer="2"/>
+    </urnen>
+</wahl>
