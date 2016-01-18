@@ -136,7 +136,7 @@ public class EingabeStimmenDialogController implements Initializable {
         ergebnis.setStimmenUngueltig(Integer.parseInt(inputUngueltig.getText()));
         ergebnis.setStimmenEnthaltung(Integer.parseInt(inputEnthaltungen.getText()));
         
-        if(current_lerg != null){
+        if(current_lerg != null && !"".equals(inputListenstimmen.getText()) && !"".equals(inputListeGesamt.getText())){
             current_lerg.setListenstimmen(Integer.parseInt(inputListenstimmen.getText()));
             current_lerg.setGesamtstimmen(Integer.parseInt(inputListeGesamt.getText()));
         }
