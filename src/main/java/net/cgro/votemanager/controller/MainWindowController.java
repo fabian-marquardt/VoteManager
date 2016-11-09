@@ -498,11 +498,11 @@ public class MainWindowController implements Initializable {
             
             for(TreeItem<ErgebnisEintrag> e1: tableErgebnisanzeige.getRoot().getChildren())
             {
-                writer.write(e1.getValue().getText() + " " + e1.getValue().getStimmen() + "\n");
+                writer.write(e1.getValue().getText() + "\t" + e1.getValue().getStimmen() + "\n");
                 
                 for(TreeItem<ErgebnisEintrag> e2: e1.getChildren())
                 {
-                    writer.write(e2.getValue().getText() + " " + e2.getValue().getStimmen() + "\n");
+                    writer.write(e2.getValue().getText() + "\t" + e2.getValue().getStimmen() + "\n");
                 }
                 
                 writer.write("\n");
